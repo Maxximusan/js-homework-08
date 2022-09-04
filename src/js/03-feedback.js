@@ -35,8 +35,12 @@ function populateForm() {
         // refs.form.value = pharseMessages.email || '' || pharseMessages.message;
         refs.textarea.value = pharseMessages.message || '';
         refs.input.value = pharseMessages.email || '';
-
+        formField = pharseMessages;
     }
+
+    // if (saveMessages) {
+
+    // }
 };
 
 function onFormSubmit(event) {
